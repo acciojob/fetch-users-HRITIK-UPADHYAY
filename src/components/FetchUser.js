@@ -4,9 +4,9 @@ import axios from "axios";
 const FetchUser = () => {
     const [userData, setUserData] = useState({});
 
-    useEffect(() => {
-        handle();
-    }, [])
+    // useEffect(() => {
+    //     handle();
+    // }, [])
 
     function handle() {
         axios.get("https://reqres.in/api/users")
