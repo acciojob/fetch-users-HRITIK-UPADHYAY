@@ -1,1 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+.fetchUser > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    color: white;
+    background-color: green;
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+.heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+    background-color: black;
+}
+
+.user-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 1rem; */
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.user-details > img {
+    width: 5%;
+    border-radius: 50%;
+}
