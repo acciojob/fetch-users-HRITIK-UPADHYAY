@@ -33,14 +33,14 @@ const FetchUser = () => {
                 </div>
                 
                 {
-                    userData.length > 0 && userData.map(item => (
+                    userData.length > 0 ? userData.map(item => (
                         <div className="user-details">
                             <p> {item.first_name} </p>
                             <p> {item.last_name} </p>
                             <p> {item.email} </p>
                             <img src={item.avatar} alt="Person Image" />
                         </div>
-                    ))
+                    )) : <h1> No Data Found </h1>
                 }
                 
             </div>
